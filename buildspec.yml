@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+        - python -m pip install pyopenssl ndg-httpsclient pyasn1
         - python -m pip install Flask
   build:
     commands:
